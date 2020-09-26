@@ -1,0 +1,23 @@
+{
+  "name": "csrf",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "start80": "node server80/main80.js",
+    "start81": "node server81/main81.js"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "dependencies": {
+    "koa": "^2.13.0",
+    "koa-route": "^3.2.0",
+    "koa-static": "^5.0.0",
+    "uninstall": "0.0.0"
+  },
+  "devDependencies": {
+    "koa-router": "^9.4.0"
+  }
+}
